@@ -14,7 +14,7 @@ function Header() {
       id={isRestaurantDetail ? "" : "accueil"}
     >
       {isRestaurantDetail ? (
-        <a href="/">
+        <a href="homyfood-react/">
           <FontAwesomeIcon
             icon={faArrowLeft}
             className="page-restaurant__icon"
