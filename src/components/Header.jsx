@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useLocation } from "react-router-dom";
 
 function Header() {
-  const location = useLocation(); // Utilisation de useLocation pour obtenir la route actuelle
+  const location = useLocation();
 
   const isRestaurantDetail = location.pathname.includes("/restaurant/");
   return (
@@ -23,7 +23,7 @@ function Header() {
       ) : (
         <img
           className="l-header__image"
-          src="/images/logo/ohmyfood.png"
+          src="./images/logo/ohmyfood.png"
           alt="Logo"
         />
       )}
@@ -32,7 +32,7 @@ function Header() {
         <div className="page-restaurant__header__content">
           <img
             className="l-header__image page-restaurant__logo"
-            src="/images/logo/ohmyfood.png"
+            src="./images/logo/ohmyfood.png"
             alt="Logo du site"
           />
         </div>

@@ -2,7 +2,7 @@ const platsData = [
   {
     id: 1,
     title: "La palette du goût",
-    image: "/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg",
+    image: "./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg",
     categories: [
       {
         title: "Entrées",
@@ -70,7 +70,7 @@ const platsData = [
   {
     id: 2,
     title: "La note enchantée",
-    image: "/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg",
+    image: "./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg",
     categories: [
       {
         title: "Entrées",
@@ -142,7 +142,7 @@ const platsData = [
   {
     id: 3,
     title: "À la française",
-    image: "/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg",
+    image: "./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg",
     categories: [
       {
         title: "Entrées",
@@ -230,7 +230,7 @@ const platsData = [
       ],
     },
     image:
-      "/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg",
+      "./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg",
     categories: [
       {
         title: "Entrées",
