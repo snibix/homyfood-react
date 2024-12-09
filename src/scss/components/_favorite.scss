@@ -1,0 +1,18 @@
+.favorite {
+  position: relative;
+  font-size: 1em;
+  width: 1em;
+  height: 1em;
+  .favorite-check,
+  .favorite-uncheck {
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s ease;
+  }
+}

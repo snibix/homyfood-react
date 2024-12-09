@@ -1,0 +1,8 @@
+.container {
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: $bg-primary-color;
+  }
+}

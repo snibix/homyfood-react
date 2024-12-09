@@ -1,0 +1,9 @@
+.restaurants__icon {
+  font-size: 25px;
+  color: #ccc; // Couleur par défaut
+  transition: color 0.3s ease-in-out; // Animation fluide sur la couleur
+
+  &:hover {
+    color: $primary-color; // Change la couleur au survol
+  }
+}

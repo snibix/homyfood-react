@@ -1,0 +1,15 @@
+.search {
+  display: flex;
+  gap: 17px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: $bg-location;
+  &__location {
+    border: none;
+    background: $bg-location;
+    &:focus {
+      outline: none;
+    }
+  }
+}

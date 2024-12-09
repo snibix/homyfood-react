@@ -1,0 +1,67 @@
+.restaurants {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 40px 15px;
+  background-color: $bg-primary-color;
+  &__title {
+    padding: 10px 0;
+  }
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  &__img {
+    width: 100%;
+    height: 231px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+  }
+  &__article {
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+  }
+  &__badge {
+    position: absolute;
+    top: 0.9em;
+    right: 0.9em;
+    color: #008766;
+    background: $bg-badge-color;
+    font-size: 14px;
+    padding: 0.4em 0.7em;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    &__title {
+      padding: 5px 0;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    font-size: 25px;
+    top: 260px;
+    right: 20px;
+    font-weight: 900;
+  }
+  @media screen and (min-width: 1024px) {
+    gap: 30px;
+    padding: 0 0 30px 22px;
+    max-width: 1000px;
+    margin: auto;
+    &__cards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 50px 60px;
+    }
+    &__card {
+      min-width: 455px;
+    }
+  }
+}
