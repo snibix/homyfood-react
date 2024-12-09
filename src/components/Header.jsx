@@ -1,7 +1,7 @@
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useLocation } from "react-router-dom";
-import logo from "../assets/images/logo/ohmyfood.png";
+import logo from "/images/logo/ohmyfood.png";
 
 function Header() {
   const location = useLocation(); // Utilisation de useLocation pour obtenir la route actuelle
