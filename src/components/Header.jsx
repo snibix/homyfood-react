@@ -1,7 +1,6 @@
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useLocation } from "react-router-dom";
-import logo from "/images/logo/ohmyfood.png";
 
 function Header() {
   const location = useLocation(); // Utilisation de useLocation pour obtenir la route actuelle
@@ -22,14 +21,18 @@ function Header() {
           />
         </a>
       ) : (
-        <img className="l-header__image" src={logo} alt="Logo" />
+        <img
+          className="l-header__image"
+          src="/images/logo/ohmyfood.png"
+          alt="Logo"
+        />
       )}
 
       {isRestaurantDetail && (
         <div className="page-restaurant__header__content">
           <img
             className="l-header__image page-restaurant__logo"
-            src={logo}
+            src="/images/logo/ohmyfood.png"
             alt="Logo du site"
           />
         </div>
