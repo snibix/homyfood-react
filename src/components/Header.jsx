@@ -1,6 +1,6 @@
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Header() {
   const location = useLocation();
@@ -14,12 +14,12 @@ function Header() {
       id={isRestaurantDetail ? "" : "accueil"}
     >
       {isRestaurantDetail ? (
-        <a href="homyfood-react/">
+        <Link to="/">
           <FontAwesomeIcon
             icon={faArrowLeft}
             className="page-restaurant__icon"
           />
-        </a>
+        </Link>
       ) : (
         <img
           className="l-header__image"
